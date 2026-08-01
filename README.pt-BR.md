@@ -9,7 +9,7 @@
 
 <!-- Efeito de digitação -->
 <a href="https://github.com/vbsantos">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=1000&color=7AA2F7&center=true&vCenter=true&width=600&lines=Desenvolvedor+Fullstack+%7C+C%23+%2B+JavaScript;Co-fundador+da+Flinston+Game+Company;Construindo+o+Thang+Online;.NET+%E2%80%A2+MongoDB+%E2%80%A2+Docker" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=1000&color=7AA2F7&center=true&vCenter=true&width=600&lines=Desenvolvedor+Fullstack+%7C+C%23+%2B+JavaScript;Co-fundador+da+Flinston+Game+Company;Construindo+o+Thang+Online;.NET+%7C+MongoDB+%7C+Docker" alt="Typing SVG" />
 </a>
 
 <div>
@@ -20,7 +20,7 @@
 
 ## 🎮 Sobre mim
 
-- 🗡️ Sócio-fundador da **[Flinston Game Company](https://flinstongames.com)** — estúdio por trás do **[Thang Online](https://thangglobal.com)**, um MMORPG oldschool com mais de 20 anos de estrada
+- 🗡️ Sócio-fundador da **[Flinston Game Company](https://flinstongames.com)**, estúdio por trás do **[Thang Online](https://thangglobal.com)**, um MMORPG oldschool com mais de 20 anos de estrada
 - 🏨 Fullstack na **HSystem**, desenvolvendo sistemas para hotelaria
 - ⚙️ No dia a dia: **C# / .NET**, **JavaScript/TypeScript** e **MongoDB**
 - 🤖 Explorando workflows de desenvolvimento assistido por IA
@@ -34,16 +34,16 @@
 
 ## 💼 O que já construí
 
-- 🎮 **Games & MMORPG** — servidor, launcher e cliente do Thang Online (C#)
-- 🏨 **SaaS de hotelaria** — sistemas de gestão hoteleira na HSystem
-- 🌐 **Aplicações web fullstack** — APIs .NET + front-ends JavaScript/TypeScript
-- 🖥️ **Apps desktop Windows** — ferramentas e utilitários internos em .NET
-- ⚙️ **Infra & DevOps** — Docker, Linux e automação de infraestrutura
+- 🎮 **Games & MMORPG**: servidor, launcher e cliente do Thang Online (C#)
+- 🏨 **SaaS de hotelaria**: sistemas de gestão hoteleira na HSystem
+- 🌐 **Aplicações web fullstack**: APIs .NET + front-ends JavaScript/TypeScript
+- 🖥️ **Apps desktop Windows**: ferramentas e utilitários internos em .NET
+- ⚙️ **Infra & DevOps**: Docker, Linux e automação de infraestrutura
 
 ## 🛠️ Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,js,ts,nodejs,mongodb,docker,linux,git&perline=5&theme=dark" alt="Stack de tecnologias"/>
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,js,ts,html,css,nodejs,mongodb,redis,docker,linux,git,githubactions,azure,aws,gcp,visualstudio,vscode&perline=9&theme=dark" alt="Stack de tecnologias"/>
 </div>
 
 ## 📈 Stats

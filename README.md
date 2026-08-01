@@ -9,7 +9,7 @@
 
 <!-- Typing effect -->
 <a href="https://github.com/vbsantos">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=1000&color=7AA2F7&center=true&vCenter=true&width=600&lines=Fullstack+Developer+%7C+C%23+%2B+JavaScript;Co-founder+%40+Flinston+Game+Company;Building+Thang+Online;.NET+%E2%80%A2+MongoDB+%E2%80%A2+Docker" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=1000&color=7AA2F7&center=true&vCenter=true&width=600&lines=Fullstack+Developer+%7C+C%23+%2B+JavaScript;Co-founder+%40+Flinston+Game+Company;Building+Thang+Online;.NET+%7C+MongoDB+%7C+Docker" alt="Typing SVG" />
 </a>
 
 <div>
@@ -20,7 +20,7 @@
 
 ## 🎮 About me
 
-- 🗡️ Co-founder of **[Flinston Game Company](https://flinstongames.com)** — the studio behind **[Thang Online](https://thangglobal.com)**, an oldschool MMORPG with 20+ years of history
+- 🗡️ Co-founder of **[Flinston Game Company](https://flinstongames.com)**, the studio behind **[Thang Online](https://thangglobal.com)**, an oldschool MMORPG with 20+ years of history
 - 🏨 Fullstack developer at **HSystem**, building software for the hospitality industry
 - ⚙️ Day to day: **C# / .NET**, **JavaScript/TypeScript**, and **MongoDB**
 - 🤖 Exploring AI-assisted development workflows
@@ -34,16 +34,16 @@
 
 ## 💼 What I've built
 
-- 🎮 **Games & MMORPGs** — server, launcher, and client work on Thang Online (C#)
-- 🏨 **Hospitality SaaS** — hotel management systems at HSystem
-- 🌐 **Fullstack web apps** — .NET APIs + JavaScript/TypeScript front-ends
-- 🖥️ **Windows desktop apps** — internal tools and utilities in .NET
-- ⚙️ **Infra & DevOps** — Docker, Linux, and infrastructure automation
+- 🎮 **Games & MMORPGs**: server, launcher, and client work on Thang Online (C#)
+- 🏨 **Hospitality SaaS**: hotel management systems at HSystem
+- 🌐 **Fullstack web apps**: .NET APIs + JavaScript/TypeScript front-ends
+- 🖥️ **Windows desktop apps**: internal tools and utilities in .NET
+- ⚙️ **Infra & DevOps**: Docker, Linux, and infrastructure automation
 
 ## 🛠️ Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,js,ts,nodejs,mongodb,docker,linux,git&perline=5&theme=dark" alt="Tech stack"/>
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,js,ts,html,css,nodejs,mongodb,redis,docker,linux,git,githubactions,azure,aws,gcp,visualstudio,vscode&perline=9&theme=dark" alt="Tech stack"/>
 </div>
 
 ## 📈 Stats
