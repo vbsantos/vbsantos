@@ -1,4 +1,3 @@
-# Salvar como: .github/workflows/snake.yml (no repositório do perfil)
 name: Gerar snake
 
 on:
