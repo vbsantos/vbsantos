@@ -12,7 +12,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=1000&color=7AA2F7&center=true&vCenter=true&width=600&lines=Fullstack+Developer+%7C+C%23+%2B+JavaScript;Co-founder+%40+Flinston+Game+Company;Building+Thang+Online;.NET+%E2%80%A2+MongoDB+%E2%80%A2+Docker" alt="Typing SVG" />
 </a>
 
-<img src="https://komarev.com/ghpvc/?username=vbsantos&color=7aa2f7&style=flat-square&label=views" alt="Profile views"/>
+<img src="https://komarev.com/ghpvc/?username=vbsantos&color=7aa2f7&style=for-the-badge&label=profile+views" alt="Profile views"/>
 
 </div>
 
