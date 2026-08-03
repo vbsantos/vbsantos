@@ -1,4 +1,4 @@
-name: Gerar snake
+name: Gerar snake e streak
 
 on:
   schedule:
@@ -14,7 +14,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20   # o retry do streak pode levar ~8min no pior caso
     steps:
       - name: Gerar animação da snake
         uses: Platane/snk/svg-only@v3
@@ -23,6 +23,53 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+
+      # O streak-stats publico oscila: p50 de ~18s, e as vezes devolve um card de
+      # erro ("Failed to retrieve contributions") com HTTP 200. Buscar aqui uma vez
+      # por dia, com retry e validacao de conteudo, evita que cada visitante do
+      # perfil dependa dele em tempo real -- e o card fica servido pelo
+      # raw.githubusercontent, que nao passa pelo proxy camo do GitHub.
+      - name: Gerar cards do streak
+        run: |
+          set -u
+          mkdir -p dist
+          base="https://streak-stats.demolab.com?user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true"
+          repo="https://raw.githubusercontent.com/${{ github.repository }}/output"
+
+          # '@keyframes currstreak' so existe no card completo e nao depende do
+          # idioma, ao contrario dos rotulos ("Current Streak" / "Sequencia atual").
+          valido() {
+            [ -s "$1" ] && grep -q 'keyframes currstreak' "$1" && ! grep -q 'Failed to retrieve' "$1"
+          }
+
+          # arquivo:query-extra
+          for par in "streak.svg:" "streak-pt.svg:&locale=pt_BR"; do
+            arq="${par%%:*}"
+            extra="${par#*:}"
+            obtido=""
+
+            for i in $(seq 1 6); do
+              if curl -sS --max-time 40 --connect-timeout 15 -o /tmp/card.svg "${base}${extra}" && valido /tmp/card.svg; then
+                cp /tmp/card.svg "dist/$arq"
+                echo "$arq: obtido na tentativa $i"
+                obtido=1
+                break
+              fi
+              echo "$arq: tentativa $i falhou (timeout ou card de erro)"
+              sleep 15
+            done
+
+            # Sem card novo, reaproveita o ja publicado: o publish faz force-push
+            # do dist/ inteiro, entao um arquivo ausente aqui apagaria o do ar.
+            if [ -z "$obtido" ]; then
+              if curl -sS --max-time 30 -o /tmp/anterior.svg "$repo/$arq" && valido /tmp/anterior.svg; then
+                cp /tmp/anterior.svg "dist/$arq"
+                echo "::warning::$arq: origem indisponivel, mantendo o card anterior"
+              else
+                echo "::warning::$arq: origem indisponivel e sem card anterior; a imagem vai faltar nesta rodada"
+              fi
+            fi
+          done
 
       - name: Publicar na branch output
         uses: crazy-max/ghaction-github-pages@v4

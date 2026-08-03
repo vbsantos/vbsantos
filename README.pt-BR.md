@@ -12,10 +12,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=1000&color=7AA2F7&center=true&vCenter=true&width=600&lines=Desenvolvedor+Fullstack+%7C+C%23+%2B+JavaScript;Co-fundador+da+Flinston+Game+Company;Construindo+o+Thang+Online;.NET+%7C+MongoDB+%7C+Docker" alt="Typing SVG" />
 </a>
 
-<div>
-<img src="https://komarev.com/ghpvc/?username=vbsantos&color=7aa2f7&style=for-the-badge&label=visualiza%C3%A7%C3%B5es" alt="Visualizações do perfil"/>
-</div>
-
 </div>
 
 ## 🎮 Sobre mim
@@ -49,7 +45,7 @@
 ## 📈 Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=vbsantos&theme=tokyonight&hide_border=true&locale=pt_BR" alt="Sequência de contribuições"/>
+  <img src="https://raw.githubusercontent.com/vbsantos/vbsantos/output/streak-pt.svg" alt="Sequência de contribuições"/>
 </div>
 
 ## 🐍 Atividade
